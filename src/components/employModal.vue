@@ -51,7 +51,7 @@ export default {
     }
 
     .modal-container {
-        width: 80vw;
+        width: 50vw;
         margin: 0px auto;
         padding: 20px 30px;
         background-color: #fff;
@@ -62,6 +62,21 @@ export default {
         word-wrap: break-word;
         font-size: 1rem;
     }
+    @media screen and (max-width:800px) { 
+    /*　画面サイズが480pxからはここを読み込む　*/
+		.modal-container {
+	        width: 80vw;
+	        margin: 0px auto;
+	        padding: 20px 30px;
+	        background-color: #fff;
+	        border-radius: 10px;
+	        box-shadow: 0 2px 8px rgba(0, 0, 0, .33);
+	        border:solid 2px #141b3d;
+	        transition: all .3s ease;
+	        word-wrap: break-word;
+	        font-size: 1rem;
+    	}
+	}
 
     .modal-header {
         margin-top: 0;

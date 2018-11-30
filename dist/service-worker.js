@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.07bad074c5fcddc2c2f1e1e78859c2d0.js"
+  "/precache-manifest.84d5f0e41bcdba52a46a6700aa969b25.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "dym2019"});
