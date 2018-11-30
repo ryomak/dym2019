@@ -8,6 +8,7 @@
     "start": "node server.js"
   },
   "dependencies": {
+    "express": "^4.16.4",
     "node-sass": "^4.10.0",
     "register-service-worker": "^1.5.2",
     "sass-loader": "^7.1.0",
