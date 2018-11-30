@@ -5,6 +5,7 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build"
+    "start": "node server.js"
   },
   "dependencies": {
     "node-sass": "^4.10.0",
