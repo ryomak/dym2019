@@ -4,7 +4,7 @@
   	<div v-for="b in boxes">
   		<box :title="b.title" :body="b.body"/>
   	</div>
-  
+    <img src="../assets/pre.jpg" border="3" />
   </div>
 </template>
 <script>
@@ -22,7 +22,7 @@
 					title:"新規事業の立ち上げ",
 					body:"DYMは新規事業を次々と立ち上げていきます。大企業ではそう簡単に新しい事業を始めることはできません。内定者の中でもこの新規事業を立ち上げることが魅力的でDYMを選んだ人も多いです。実際、新卒1年目から新規事業を立ち上げ売上を期待されている社員さんもいます。"
 				},{
-					title:"初任給30万",
+					title:"初任給35万",
 					body:"外勤である営業職は初任給が30万円です。この初任給＋仕事で活躍すると、インセンティブが上乗せされます。頑張れば頑張った分、報酬がしっかりもらえます"
 				},{
 					title:"仕事場はエネルギッシュ",
@@ -46,4 +46,10 @@
 		margin: 2vh; 
 		font-weight: bold;
 	}
+  img{
+    width: 70vw;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    border-radius:10px;
+  }
 </style>
