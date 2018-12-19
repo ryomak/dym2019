@@ -18,6 +18,9 @@
 					<li class="nav-item">
 						<router-link class="nav-link back" to="/future-employer">内定者紹介</router-link>
 					</li>
+					<li class="nav-item">
+						<router-link class="nav-link back" to="/selection-flow">選考フロー</router-link>
+					</li>
 				</ul>
 			</div>
 		</nav>
