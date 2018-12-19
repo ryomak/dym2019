@@ -8,8 +8,7 @@ import FutureEmployer from './views/FutureEmployer.vue'
 
 Vue.use(Router)
 
-export default new Router({
-  mode: 'history',
+export default new Router({ 
   base: process.env.BASE_URL,
   routes: [
     {
